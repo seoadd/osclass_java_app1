@@ -10,7 +10,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class ApiClient {
-    private static final String BASE_URL = "https://geologs.ru/oc-content/plugins/rest/";
+    private static final String BASE_URL = "https://site.ru/oc-content/plugins/rest/";
     private static final String API_KEY = "Tokw0Dcg7tAD8oKiE8VsFdrLy1HPT5"; // Ваш ключ
 
     private static Retrofit retrofit = null;
