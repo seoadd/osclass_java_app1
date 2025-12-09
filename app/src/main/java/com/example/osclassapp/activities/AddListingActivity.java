@@ -75,7 +75,6 @@ public class AddListingActivity extends AppCompatActivity {
         if (sessionManager.isLoggedIn()) {
             com.example.osclassapp.models.User user = new com.example.osclassapp.models.User();
             // Получаем данные из SessionManager
-            // Вам нужно добавить методы getUserId, getUserName и т.д. в SessionManager
             user.setEmail("user@example.com"); // Временное значение
             user.setPhone("+79999999999"); // Временное значение
             return user;
