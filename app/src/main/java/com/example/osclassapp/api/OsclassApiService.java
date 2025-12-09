@@ -91,7 +91,6 @@ public interface OsclassApiService {
             @Query("onlyResponse") int onlyResponse
     );
 
-    // Альтернативный метод с большим количеством параметров
     @GET("api.php")
     Call<ApiResponse> createListingFull(
             @Query("key") String apiKey,
@@ -109,7 +108,6 @@ public interface OsclassApiService {
             @Query("onlyResponse") int onlyResponse
     );
 
-    // Добавьте этот метод в OsclassApiService
     @GET("api.php")
     Call<UserResponse> getUserProfile(
             @Query("key") String apiKey,
